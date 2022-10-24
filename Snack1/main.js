@@ -7,61 +7,61 @@ const zucchine = [
     {
         variety: 'Zucchina nera',
         weight: 100,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina romanesca',
         weight: 50,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina di Faenza',
         weight: 150,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina lunga fiorentina',
         weight: 200,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina siciliana',
         weight: 100,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina striata di Napoli',
         weight: 80,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina bianca triestina',
         weight: 75,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina rigata pugliese',
         weight: 120,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina tonda di Piacenza',
         weight: 60,
-        lenght: '10cm',
+        length: '10cm',
     },
 
     {
         variety: 'Zucchina tonda di Nizza',
         weight: 80,
-        lenght: '10cm',
+        length: '10cm',
     }
 ];
 
@@ -72,10 +72,10 @@ console.log(zucchine.variety)
 const {
     variety,
     height,
-    lenght
+    length
 } = zucchine;
 
-console.log(zucchine.variety, zucchine.height, zucchine.lenght)
+console.log(zucchine.variety, zucchine.height, zucchine.length)
 
 //Calcolo quanto pesano le zucchine nell'array usando il ciclo foreach e il rest parameter e l'operatore spread
 
